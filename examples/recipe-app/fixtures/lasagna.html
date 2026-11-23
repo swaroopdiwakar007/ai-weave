@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Classic Lasagna | Example Kitchen</title>
+    <meta property="og:title" content="Classic Lasagna" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          { "@type": "WebSite", "name": "Example Kitchen", "url": "https://kitchen.example" },
+          { "@type": "BreadcrumbList", "itemListElement": [] },
+          {
+            "@type": "Recipe",
+            "name": "Classic Lasagna",
+            "recipeYield": ["8", "8 servings"],
+            "prepTime": "PT30M",
+            "cookTime": "PT1H15M",
+            "totalTime": "PT1H45M",
+            "recipeIngredient": [
+              "12 lasagna noodles",
+              "1 lb ground beef",
+              "2 cups ricotta cheese",
+              "3 cups mozzarella, shredded"
+            ],
+            "recipeInstructions": [
+              { "@type": "HowToStep", "text": "Preheat the oven to 375°F." },
+              {
+                "@type": "HowToSection",
+                "name": "Assemble",
+                "itemListElement": [
+                  { "@type": "HowToStep", "text": "Layer noodles, sauce and cheese." },
+                  { "@type": "HowToStep", "text": "Bake for 45 minutes." }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav><a href="/">Home</a> <a href="/recipes">Recipes</a></nav>
+    </header>
+    <div class="cookie-banner">We use cookies. <button>Accept</button></div>
+    <main>
+      <article>
+        <h1>Classic Lasagna</h1>
+        <p>This is the <strong>best</strong> lasagna &amp; it feeds a crowd.</p>
+        <h2>Ingredients</h2>
+        <ul>
+          <li>12 lasagna noodles</li>
+          <li>1 lb ground beef</li>
+          <li>2 cups ricotta cheese</li>
+          <li>3 cups mozzarella, shredded</li>
+        </ul>
+        <h2>Instructions</h2>
+        <ol>
+          <li>Preheat the oven to 375°F.</li>
+          <li>Layer noodles, sauce and cheese.</li>
+          <li>Bake for 45 minutes.</li>
+        </ol>
+        <div class="share-buttons">Share on Facebook</div>
+      </article>
+      <aside>Popular posts</aside>
+    </main>
+    <footer>© Example Kitchen</footer>
+    <script>
+      window.tracking = true;
+    </script>
+  </body>
+</html>

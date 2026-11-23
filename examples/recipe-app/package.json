@@ -1,0 +1,18 @@
+{
+  "name": "recipe-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "demo": "tsx src/cli.ts --offline",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@ai-weave/anthropic": "workspace:^",
+    "@ai-weave/core": "workspace:^",
+    "@ai-weave/gemini": "workspace:^",
+    "@ai-weave/openai": "workspace:^",
+    "@ai-weave/web": "workspace:^",
+    "zod": "^4.1.0"
+  }
+}

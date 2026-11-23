@@ -1,0 +1,45 @@
+{
+  "name": "@ai-weave/server",
+  "version": "0.1.0",
+  "description": "Framework-agnostic server handler for ai-weave. Planned for Phase 2.",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swaroopdiwakar007/ai-weave.git",
+    "directory": "packages/server"
+  },
+  "homepage": "https://github.com/swaroopdiwakar007/ai-weave/tree/main/packages/server#readme",
+  "bugs": {
+    "url": "https://github.com/swaroopdiwakar007/ai-weave/issues"
+  },
+  "type": "module",
+  "keywords": [],
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  }
+}
