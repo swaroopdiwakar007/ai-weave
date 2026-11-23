@@ -115,6 +115,8 @@ const ai = createWeave({ provider });
 
 ## Examples
 
+- [**Building an app with ai-weave**](./docs/building-an-app.md): a full plan for a RecipeBox web app
+  (Next.js) plus examples for a job tracker, reading list, support inbox and expense tracker.
 - [`examples/recipe-app`](./examples/recipe-app): paste a recipe URL to get a typed recipe and save it.
   Run `pnpm --filter recipe-app demo` to try it offline.
 
